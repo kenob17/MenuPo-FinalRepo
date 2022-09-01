@@ -1,0 +1,95 @@
+/*****************globals*************/
+body {
+  overflow-x: hidden;
+}
+
+/* Fonts */
+@font-face {
+  font-family: GraphikFont;
+  src: url("../fonts/GraphikRegular.otf");
+}
+
+body {
+  font-family: GraphikFont;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-class {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: 400px;
+}
+
+@media screen and (max-width: 996px) {
+  .preview {
+    margin-bottom: 20px;
+  }
+}
+
+.container-contents {
+  max-height: 600px;
+  height: 500px;
+}
+
+.dish-name {
+  font-size: 40px;
+}
+
+.dish-price {
+  font-size: 30px;
+}
+
+.descrip {
+  font-size: 17px;
+}
+
+.btn-class {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn {
+  font-size: 20px;
+}
+
+.dish-num {
+  font-size: 15px;
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.restrict-icon:hover {
+  background-color: red !important;
+}
